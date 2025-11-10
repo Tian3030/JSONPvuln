@@ -4,4 +4,4 @@ fetch('http://localhost:5000/transfer', {
     "Content-Type": "application/x-www-form-urlencoded",
   },
   body: new URLSearchParams({ to_username:"bbb", amount:1000,note:"tonto",submit:"Transferir"}),
-  )  
+})  
